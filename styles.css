@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;}
+
+ body{
+    font-size:16px;
+    font-family:Young Serif;
+    font-weight: 400;
+    padding-left:30px;
+    padding-right: 30px;
+     margin:5px;
+    
+ }  
+img{
+
+    max-width: 100%;
+    border-radius: 10%;
+    padding: 10px
+} 
+div h2{
+   padding-top: 10px; 
+   padding-bottom: 10px;
+   word-spacing: 5px;
+   font-size: 26px;
+}
+div p{
+     padding-bottom: 10px;
+     
+}
+
+
+
+div.ul-time-container{
+    background-color:hsl(330, 26%, 89%);
+     padding-bottom: 20px;
+     border-radius: 10px;
+}
+.ul-time-container ul{
+    padding-left: 50px;
+    padding-top: 10px;
+    line-height: 25px;
+    
+}
+.time{
+    color:hsl(332, 51%, 32%);
+    padding-top: 10px;
+    padding-left: 25px;
+    font-weight: bold;
+    
+}
+h3,li::marker{
+    color:hsl(14, 45%, 36%);
+
+    
+}
+
+.ul-ingredient{
+   padding-top: 20px;
+    
+}
+.ul-ingredient h3{
+    padding-bottom: 10px;
+    font-size: 24px;
+    padding-left: 2px;
+}
+.ul-ingredient ul{
+   line-height: 25px;
+   padding-bottom: 16px;
+   padding-left: 25px;
+}
+.ol-instruction-container{
+     
+}
+.ol-instruction-container h3{
+      padding-bottom: 16px;
+    font-size: 24px;
+    padding-top: 16px;
+    padding-left: 2px;
+}
+.ol-instruction-container ol{
+    line-height: 25px;
+    padding-bottom: 16px;
+    padding-left: 25px;
+    
+}
+@media (max-width: 375) {
+    .ol-instruction-container ol{
+        height:500px;
+    }
+}
+
+
+
+ul li span{
+    color:hsl(24, 5%, 18%);
+     }
+
+
+
+.nutrition-food-classes-container {
+  
+    
+     line-height: 30px;
+     
+} 
+
+div li span{
+    color:hsl(24, 5%, 18%);
+
+}
+
+.Calories{
+    display:flex;
+    flex-direction: row;
+    gap:150px;
+    border-bottom:1px solid hsl(20, 2%, 39%);
+ 
+    
+}
+.kcal span{
+    color:  hsl(14, 45%, 36%);
+}
+.carbs-0g-container{
+    display:flex;
+    flex-direction: row;
+    gap:150px;
+    border-bottom:1px solid hsl(20, 2%, 39%); 
+}
+.gram-1{
+   margin-left: 20px;
+}
+.gram-1 span{
+    color:  hsl(14, 45%, 36%);
+}
+
+.protein-20g-container{
+     display:flex;
+    flex-direction: row;
+    gap:150px;
+    border-bottom:1px solid hsl(20, 2%, 39%); 
+}
+.gram-2{
+    margin-left: 10px; 
+}
+.gram-2 span{
+    color:  hsl(14, 45%, 36%);
+}
+
+.fat-22g-container{
+display:flex;
+    flex-direction: row;
+    gap:150px;
+}
+.gram-3{
+    margin-left: 35px; 
+}
+.gram-3 span{
+    color:  hsl(14, 45%, 36%);
+}
+
+   
+
+
+
