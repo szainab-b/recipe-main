@@ -32,7 +32,7 @@ div h2 {
 }
 div p {
   padding-bottom: 10px;
-  font-size: 16px;
+  font-size: 17px;
   color:hsl(30, 10%, 34%);
 }
 
@@ -55,7 +55,7 @@ div.ul-time-container {
 }
 li{
   color:hsl(30, 10%, 34%);
-  font-size: 19px;
+  font-size: 17px;
 }
 h3,
 li::marker {
@@ -82,18 +82,15 @@ li::marker {
   font-size: 24px;
   padding-top: 16px;
   padding-left: 2px;
+  
 }
 .ol-instruction-container ol {
   line-height: 25px;
   padding-bottom: 16px;
   padding-left: 25px;
-}
-@media (max-width: 375) {
-  .ol-instruction-container ol {
-    height: 500px;
-  }
-}
+  border-bottom: 1px solid hsl(20, 2%, 39%);
 
+}
 ul li span {
   color: hsl(24, 5%, 18%);
 
@@ -119,6 +116,9 @@ div li span {
   
 
 }
+.calo{
+  margin-left: 24px;
+}
 .kcal span {
   color: hsl(14, 45%, 36%);
   font-weight: 800;
@@ -130,6 +130,9 @@ div li span {
   border-bottom: 1px solid hsl(20, 2%, 39%);
   color:hsl(30, 10%, 34%);
 
+}
+.carbs{
+  margin-left: 24px;
 }
 .gram-1 {
   margin-left: 20px;
@@ -146,6 +149,10 @@ div li span {
   border-bottom: 1px solid hsl(20, 2%, 39%);
   color:hsl(30, 10%, 34%);
 }
+.Protein{
+   margin-left: 24px;
+
+}
 .gram-2 {
   margin-left: 10px;
 }
@@ -160,10 +167,22 @@ div li span {
   gap: 150px;
   color:hsl(30, 10%, 34%);
 }
+.fat{
+  margin-left: 24px;
+
+}
 .gram-3 {
   margin-left: 35px;
 }
 .gram-3 span {
   color: hsl(14, 45%, 36%);
   font-weight: 800;
+}
+@media (min-width: 768px) {
+  body{
+    padding: 24px;
+  }
+  img{
+    border-radius: 16px;
+  }
 }
