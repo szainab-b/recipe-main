@@ -10,6 +10,8 @@
     padding-left:30px;
     padding-right: 30px;
      margin:5px;
+      
+     
     
  }  
 img{
@@ -22,7 +24,7 @@ div h2{
    padding-top: 10px; 
    padding-bottom: 10px;
    word-spacing: 5px;
-   font-size: 26px;
+   font-size: clamp( 1rem 10vw 1.5)
 }
 div p{
      padding-bottom: 10px;
@@ -32,14 +34,16 @@ div p{
 
 
 div.ul-time-container{
-    background-color:hsl(330, 26%, 89%);
+     background-color:hsl(330, 26%, 89%);
      padding-bottom: 20px;
      border-radius: 10px;
+     
 }
 .ul-time-container ul{
     padding-left: 50px;
     padding-top: 10px;
     line-height: 25px;
+    font-size: 1em;
     
 }
 .time{
@@ -47,6 +51,7 @@ div.ul-time-container{
     padding-top: 10px;
     padding-left: 25px;
     font-weight: bold;
+    
     
 }
 h3,li::marker{
@@ -69,11 +74,9 @@ h3,li::marker{
    padding-bottom: 16px;
    padding-left: 25px;
 }
-.ol-instruction-container{
-     
-}
+
 .ol-instruction-container h3{
-      padding-bottom: 16px;
+    padding-bottom: 16px;
     font-size: 24px;
     padding-top: 16px;
     padding-left: 2px;
