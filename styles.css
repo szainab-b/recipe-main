@@ -76,7 +76,6 @@ li::marker {
   padding-bottom: 16px;
   padding-left: 25px;
 }
-
 .ol-instruction-container h3 {
   padding-bottom: 16px;
   font-size: 24px;
@@ -184,5 +183,8 @@ div li span {
   }
   img{
     border-radius: 16px;
+  }
+  .senoir-dev{
+    padding: 24px 0px;
   }
 }
